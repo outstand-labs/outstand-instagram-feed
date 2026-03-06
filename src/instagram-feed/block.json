@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "outstand/instagram-feed",
+  "title": "Instagram Feed",
+  "category": "widgets",
+  "description": "Display Instagram posts using a customizable block with list and grid layouts.",
+  "keywords": [
+    "instagram",
+    "feed",
+    "social"
+  ],
+  "textdomain": "outstand-instagram-feed",
+  "attributes": {
+    "totalItems": {
+      "type": "number",
+      "default": 6
+    }
+  },
+  "providesContext": {
+    "totalItems": "totalItems"
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false,
+    "layout": true
+  },
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

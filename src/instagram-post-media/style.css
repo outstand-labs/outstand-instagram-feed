@@ -1,0 +1,70 @@
+.wp-block-outstand-instagram-post-media {
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+}
+
+.wp-block-outstand-instagram-post-media :where(img) {
+	box-sizing: border-box;
+	height: auto;
+	max-width: 100%;
+	vertical-align: bottom;
+	width: 100%;
+}
+
+.wp-block-outstand-instagram-post-media__overlay {
+
+	&.has-background-gradient {
+		background-color: transparent;
+	}
+
+	&.has-background-dim {
+		position: absolute;
+		inset: 0;
+		background-color: #000000;
+	}
+
+	&.has-background-dim-0 {
+		opacity: 0;
+	}
+
+	&.has-background-dim-10 {
+		opacity: 0.1;
+	}
+
+	&.has-background-dim-20 {
+		opacity: 0.2;
+	}
+
+	&.has-background-dim-30 {
+		opacity: 0.3;
+	}
+
+	&.has-background-dim-40 {
+		opacity: 0.4;
+	}
+
+	&.has-background-dim-50 {
+		opacity: 0.5;
+	}
+
+	&.has-background-dim-60 {
+		opacity: 0.6;
+	}
+
+	&.has-background-dim-70 {
+		opacity: 0.7;
+	}
+
+	&.has-background-dim-80 {
+		opacity: 0.8;
+	}
+
+	&.has-background-dim-90 {
+		opacity: 0.9;
+	}
+
+	&.has-background-dim-100 {
+		opacity: 1;
+	}
+}

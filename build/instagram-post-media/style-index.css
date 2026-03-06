@@ -1,0 +1,71 @@
+.wp-block-outstand-instagram-post-media {
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+}
+
+.wp-block-outstand-instagram-post-media :where(img) {
+	box-sizing: border-box;
+	height: auto;
+	max-width: 100%;
+	vertical-align: bottom;
+	width: 100%;
+}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-gradient {
+		background-color: transparent;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: #000000;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-0 {
+		opacity: 0;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-10 {
+		opacity: 0.1;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-20 {
+		opacity: 0.2;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-30 {
+		opacity: 0.3;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-40 {
+		opacity: 0.4;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-50 {
+		opacity: 0.5;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-60 {
+		opacity: 0.6;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-70 {
+		opacity: 0.7;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-80 {
+		opacity: 0.8;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-90 {
+		opacity: 0.9;
+	}
+
+.wp-block-outstand-instagram-post-media__overlay.has-background-dim-100 {
+		opacity: 1;
+	}
+

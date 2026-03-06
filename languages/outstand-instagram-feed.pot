@@ -1,0 +1,439 @@
+# Copyright (C) 2026 Outstand
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Outstand Instagram Feed 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/instagram-feed-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-06T09:19:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: outstand-instagram-feed\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+#: includes/Settings.php:123
+#: includes/Settings.php:198
+msgid "Outstand Instagram Feed"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-instagram-feed&utm_campaign=plugin-uri"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php
+msgid "Display Instagram posts using a customizable Gutenberg block with list and grid layouts."
+msgstr ""
+
+#. Author of the plugin
+#: plugin.php
+msgid "Outstand"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-instagram-feed&utm_campaign=author-uri"
+msgstr ""
+
+#: includes/Client.php:138
+msgid "Invalid authorization code."
+msgstr ""
+
+#. translators: %s: Network error message
+#: includes/Client.php:161
+#, php-format
+msgid "Network error while exchanging authorization code for access token: %s"
+msgstr ""
+
+#. translators: %s: API error message
+#: includes/Client.php:175
+#, php-format
+msgid "Instagram API error during token exchange: %s"
+msgstr ""
+
+#: includes/Client.php:184
+msgid "Instagram API did not return an access token. Please check your app credentials."
+msgstr ""
+
+#. translators: %s: Error message
+#: includes/Client.php:215
+#: includes/Client.php:257
+#: includes/Client.php:319
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/Client.php:227
+msgid "No long-lived access token received."
+msgstr ""
+
+#: includes/Client.php:269
+msgid "No refreshed access token received."
+msgstr ""
+
+#: includes/Client.php:286
+msgid "Invalid access token."
+msgstr ""
+
+#: includes/Plugin.php:134
+msgid "Settings"
+msgstr ""
+
+#: includes/REST.php:39
+msgid "Number of posts to return."
+msgstr ""
+
+#: includes/Settings.php:122
+msgid "Outstand Instagram Feed Settings"
+msgstr ""
+
+#: includes/Settings.php:171
+msgid "Requirements"
+msgstr ""
+
+#: includes/Settings.php:180
+msgid "Setup Instructions"
+msgstr ""
+
+#: includes/Settings.php:243
+msgid "App ID"
+msgstr ""
+
+#: includes/Settings.php:254
+msgid "App Secret"
+msgstr ""
+
+#: includes/Settings.php:266
+msgid "Status"
+msgstr ""
+
+#: includes/Settings.php:305
+msgid "For detailed setup instructions, click the \"Help\" tab in the top-right corner of this page."
+msgstr ""
+
+#: includes/Settings.php:359
+msgid "⏳ Not Connected"
+msgstr ""
+
+#: includes/Settings.php:360
+msgid "Connect Instagram Account"
+msgstr ""
+
+#: includes/Settings.php:364
+msgid "✅ Connected"
+msgstr ""
+
+#: includes/Settings.php:365
+msgid "Reauthorize"
+msgstr ""
+
+#: includes/Settings.php:369
+msgid "⚠️ Denied"
+msgstr ""
+
+#: includes/Settings.php:370
+#: includes/Settings.php:375
+msgid "Try Again"
+msgstr ""
+
+#: includes/Settings.php:374
+msgid "❌ Failed"
+msgstr ""
+
+#: includes/Settings.php:620
+msgid "Before you begin, ensure you have:"
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:626
+#, php-format
+msgid "An Instagram %1$sBusiness%2$s or %1$sCreator%2$s account"
+msgstr ""
+
+#: includes/Settings.php:633
+msgid "A Facebook Developer account"
+msgstr ""
+
+#: includes/Settings.php:662
+msgid "Create App"
+msgstr ""
+
+#. translators: %1$s: Open anchor tag, %2$s: Close anchor tag.
+#: includes/Settings.php:666
+#, php-format
+msgid "Go to %1$sFacebook Developers Portal%2$s and click %3$sCreate App%4$s."
+msgstr ""
+
+#. translators: %1$s: Open em tag, %2$s: Close em tag.
+#: includes/Settings.php:674
+#, php-format
+msgid "Enter your app name (e.g., %1$sMy Website Social Feed%2$s or %1$sCompany Social Media%2$s) and your contact email address."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:680
+#, php-format
+msgid "Click %1$sNext%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:686
+#, php-format
+msgid "Under %1$sFilter by%2$s, choose %1$sOthers%2$s, then select %1$sOther%2$s as the use case and click %1$sNext%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:692
+#, php-format
+msgid "Select %1$sBusiness%2$s as app type and click %1$sNext%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:698
+#, php-format
+msgid "Click %1$sCreate app%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:708
+#, php-format
+msgid "Add your %1$sPrivacy Policy URL%2$s and %1$sTerms of Service URL%2$s."
+msgstr ""
+
+#. translators: %1$s: Open code tag, %2$s: Close code tag, %3$s: Website domain.
+#: includes/Settings.php:714
+#, php-format
+msgid "Add your website domain to %1$sApp domains%2$s: %3$s%4$s%5$s"
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:723
+#, php-format
+msgid "Click %1$sSave changes%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:732
+msgid "Go to Instagram"
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:738
+#, php-format
+msgid "Go to %1$sSettings%2$s > %1$sApps and websites%2$s > %1$sTester Invites%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:744
+msgid "Accept the invitation."
+msgstr ""
+
+#: includes/Settings.php:751
+msgid "Configure App"
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag, %3$s: List of steps.
+#: includes/Settings.php:755
+#, php-format
+msgid "Go to %1$sApp settings%2$s > %1$sBasic%2$s%3$s"
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:773
+#, php-format
+msgid "In the app dashboard, under %1$sProducts%2$s, click %1$sSet up%2$s in %1$sInstagram%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:779
+#, php-format
+msgid "Copy your %1$sInstagram App ID%2$s and %1$sInstagram App Secret%2$s. Do NOT use the credentials from %1$sApp settings%2$s > %1$sBasic%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:785
+#, php-format
+msgid "Click %1$sSet up%2$s under %1$sSet up Instagram business login%2$s."
+msgstr ""
+
+#. translators: %1$s: Open code tag, %2$s: Close code tag, %3$s: Valid OAuth Redirect URI.
+#: includes/Settings.php:791
+#, php-format
+msgid "Add the following %1$sRedirect URL%2$s: %3$s%4$s%5$s"
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:800
+#, php-format
+msgid "Click %1$sSave%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:806
+#, php-format
+msgid "Go to %1$sApp Roles%2$s > %1$sRoles%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:812
+#, php-format
+msgid "Click %1$sAdd People%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:818
+#, php-format
+msgid "Select %1$sInstagram Tester%2$s role."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:824
+#, php-format
+msgid "Search for the account connected to your Instagram and click %1$sAdd%2$s."
+msgstr ""
+
+#. translators: %1$s: List of steps.
+#: includes/Settings.php:830
+#, php-format
+msgid "The person must accept the invitation:%1$s"
+msgstr ""
+
+#: includes/Settings.php:848
+msgid "Configure Plugin"
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:852
+#, php-format
+msgid "Enter your %1$sInstagram App ID%2$s and %1$sInstagram App Secret%2$s and click %1$sSave%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:858
+#, php-format
+msgid "Click %1$sConnect Instagram Account%2$s."
+msgstr ""
+
+#: includes/Settings.php:862
+msgid "You will be redirected to Instagram where you can log in with your username and password."
+msgstr ""
+
+#: includes/Settings.php:863
+msgid "After login, you will see a permissions window. The only permission required is the one that mentions \"View profile and access media\". All others you can leave unchanged or toggle off."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:866
+#, php-format
+msgid "Click %1$sAllow%2$s."
+msgstr ""
+
+#. translators: %1$s: Open strong tag, %2$s: Close strong tag.
+#: includes/Settings.php:872
+#, php-format
+msgid "You'll be redirected back to WordPress. Your connection will appear as %1$sConnected%2$s in the plugin settings."
+msgstr ""
+
+#. translators: %1$s: Step number, %2$s: Step title.
+#: includes/Settings.php:902
+#, php-format
+msgid "Step %1$s: %2$s"
+msgstr ""
+
+#: includes/Settings.php:939
+msgid "Plugin Documentation"
+msgstr ""
+
+#: includes/Settings.php:944
+msgid "Instagram API Documentation"
+msgstr ""
+
+#: includes/Settings.php:949
+msgid "Convert to Business Account"
+msgstr ""
+
+#: includes/Settings.php:955
+msgid "For more information:"
+msgstr ""
+
+#: includes/Settings.php:998
+#: includes/Settings.php:1027
+msgid "Invalid settings."
+msgstr ""
+
+#: includes/Settings.php:1007
+msgid "No authorization code received."
+msgstr ""
+
+#: build/instagram-feed/index.js:1
+msgid "Instagram Feed"
+msgstr ""
+
+#: build/instagram-feed/index.js:1
+msgid "Please configure the Outstand Instagram Feed plugin to display your Instagram posts."
+msgstr ""
+
+#: build/instagram-feed/index.js:1
+msgid "Configure"
+msgstr ""
+
+#: build/instagram-feed/block.json
+msgctxt "block title"
+msgid "Instagram Feed"
+msgstr ""
+
+#: build/instagram-feed/block.json
+msgctxt "block description"
+msgid "Display Instagram posts using a customizable block with list and grid layouts."
+msgstr ""
+
+#: build/instagram-feed/block.json
+msgctxt "block keyword"
+msgid "instagram"
+msgstr ""
+
+#: build/instagram-feed/block.json
+msgctxt "block keyword"
+msgid "feed"
+msgstr ""
+
+#: build/instagram-feed/block.json
+msgctxt "block keyword"
+msgid "social"
+msgstr ""
+
+#: build/instagram-post-caption/block.json
+msgctxt "block title"
+msgid "Caption"
+msgstr ""
+
+#: build/instagram-post-caption/block.json
+msgctxt "block description"
+msgid "Displays the title of an Instagram post."
+msgstr ""
+
+#: build/instagram-post-media/block.json
+msgctxt "block title"
+msgid "Media"
+msgstr ""
+
+#: build/instagram-post-media/block.json
+msgctxt "block description"
+msgid "Display an Instagram post's media."
+msgstr ""
+
+#: build/instagram-post-template/block.json
+msgctxt "block title"
+msgid "Post Template"
+msgstr ""
+
+#: build/instagram-post-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render an Instagram post."
+msgstr ""

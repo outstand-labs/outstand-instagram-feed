@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="PixelAlbatross">
+	<rule ref="PixelAlbatross" />
+
+	<exclude-pattern>*/build/*</exclude-pattern>
+
+	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+	<rule ref="Generic.Commenting.Todo"/>
+
+	<config name="minimum_supported_wp_version" value="6.7"/>
+	<config name="testVersion" value="8.2-"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="outstand-instagram-feed"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

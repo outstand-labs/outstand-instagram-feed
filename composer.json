@@ -1,0 +1,50 @@
+{
+  "name": "outstand/instagram-feed",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Outstand",
+      "homepage": "https://outstand.site"
+    },
+    {
+      "name": "Sérgio Santos",
+      "homepage": "https://s3rgiosan.dev"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Outstand\\WP\\InstagramFeed\\": "includes/"
+    },
+    "files": [
+      "includes/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^8.2",
+    "composer-plugin-api": "^2.3",
+    "yahnis-elsts/plugin-update-checker": "^5.6"
+  },
+  "require-dev": {
+    "phpcompatibility/php-compatibility": "^9.3",
+    "phpcompatibility/phpcompatibility-wp": "*",
+    "phpstan/phpstan": "^1.11",
+    "pixelalbatross/coding-standards": "dev-main",
+    "szepeviktor/phpstan-wordpress": "^1.3"
+  },
+  "scripts": {
+    "lint": "phpcs .",
+    "lint-fix": "phpcbf ."
+  },
+  "extra": {
+    "installer-name": "outstand-instagram-feed"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "optimize-autoloader": true
+  }
+}

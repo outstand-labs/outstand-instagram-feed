@@ -1,0 +1,49 @@
+{
+  "name": "outstand-instagram-feed",
+  "version": "0.1.0",
+  "description": "Display an Instagram feed.",
+  "contributors": [
+    {
+      "name": "Outstand",
+      "homepage": "https://outstand.site"
+    },
+    {
+      "name": "Sérgio Santos",
+      "url": "https://s3rgiosan.dev",
+      "role": "developer"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outstand-labs/instagram-feed"
+  },
+  "license": "GPL-3.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "format:src": "wp-scripts format src",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "translate": "npm run translate:pot && npm run translate:update",
+    "translate:pot": "wp i18n make-pot . languages/outstand-instagram-feed.pot --exclude=src",
+    "translate:update": "wp i18n update-po languages/outstand-instagram-feed.pot languages/*.po",
+    "translate:compile": "npm run translate:mo && npm run translate:js",
+    "translate:js": "wp i18n make-json languages --no-purge",
+    "translate:mo": "wp i18n make-mo languages languages"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0",
+    "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-preset-env": "^8.1.0"
+  },
+  "dependencies": {
+    "@wordpress/icons": "^10.32.0",
+    "clsx": "^2.1.1"
+  }
+}

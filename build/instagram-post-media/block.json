@@ -1,0 +1,104 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "outstand/instagram-post-media",
+  "title": "Media",
+  "category": "theme",
+  "parent": [
+    "outstand/instagram-post-template"
+  ],
+  "description": "Display an Instagram post's media.",
+  "keywords": [],
+  "textdomain": "outstand-instagram-feed",
+  "attributes": {
+    "isLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "aspectRatio": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "scale": {
+      "type": "string",
+      "default": "cover"
+    },
+    "rel": {
+      "type": "string",
+      "attribute": "rel",
+      "default": ""
+    },
+    "linkTarget": {
+      "type": "string",
+      "default": "_self"
+    },
+    "overlayColor": {
+      "type": "string"
+    },
+    "customOverlayColor": {
+      "type": "string"
+    },
+    "dimRatio": {
+      "type": "number",
+      "default": 0
+    },
+    "gradient": {
+      "type": "string"
+    },
+    "customGradient": {
+      "type": "string"
+    }
+  },
+  "usesContext": [
+    "mediaId",
+    "mediaType",
+    "mediaUrl",
+    "caption",
+    "timestamp",
+    "permalink",
+    "thumbnailUrl"
+  ],
+  "supports": {
+    "align": [
+      "left",
+      "right",
+      "center",
+      "wide",
+      "full"
+    ],
+    "color": {
+      "text": false,
+      "background": false
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "width": true,
+      "__experimentalSkipSerialization": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "width": true
+      }
+    },
+    "filter": {
+      "duotone": true
+    },
+    "shadow": {
+      "__experimentalSkipSerialization": true
+    },
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
