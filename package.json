@@ -4,10 +4,6 @@
   "description": "Display an Instagram feed.",
   "contributors": [
     {
-      "name": "Outstand",
-      "homepage": "https://outstand.site"
-    },
-    {
       "name": "Sérgio Santos",
       "url": "https://s3rgiosan.dev",
       "role": "developer"
