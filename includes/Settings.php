@@ -119,8 +119,8 @@ class Settings {
 	public function add_settings_page(): void {
 
 		$hook_suffix = add_options_page(
-			__( 'Outstand Instagram Feed Settings', 'outstand-instagram-feed' ),
-			__( 'Outstand Instagram Feed', 'outstand-instagram-feed' ),
+			__( 'Instagram Feed Settings', 'outstand-instagram-feed' ),
+			__( 'Instagram Feed', 'outstand-instagram-feed' ),
 			'manage_options',
 			$this->get_page_slug(),
 			[ $this, 'render_settings_page' ]
