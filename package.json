@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/outstand-labs/instagram-feed"
+    "url": "https://github.com/outstand-labs/outstand-instagram-feed"
   },
   "license": "GPL-3.0-or-later",
   "main": "build/index.js",

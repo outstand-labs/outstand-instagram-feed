@@ -935,7 +935,7 @@ class Settings {
 		$links = [
 			sprintf(
 				'<a href="%1$s" target="_blank" rel="noopener">%2$s</a>',
-				esc_url( 'https://github.com/outstand-labs/instagram-feed' ),
+				esc_url( 'https://github.com/outstand-labs/outstand-instagram-feed' ),
 				__( 'Plugin Documentation', 'outstand-instagram-feed' )
 			),
 			sprintf(

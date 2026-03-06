@@ -3,7 +3,7 @@
         'name' => 'outstand/instagram-feed',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e0f7813186645b1eadf595a79b7479c2da502595',
+        'reference' => '7a39392ae3e964c29f6c167dc8f46ebc75e554f8',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'outstand/instagram-feed' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e0f7813186645b1eadf595a79b7479c2da502595',
+            'reference' => '7a39392ae3e964c29f6c167dc8f46ebc75e554f8',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
