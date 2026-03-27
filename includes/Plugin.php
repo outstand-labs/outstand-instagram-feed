@@ -16,7 +16,7 @@ class Plugin {
 	 *
 	 * @var Plugin|null
 	 */
-	public static $instance = null;
+	public static ?Plugin $instance = null;
 
 	/**
 	 * Instagram API instance.
@@ -45,7 +45,7 @@ class Plugin {
 	 *
 	 * @return Plugin
 	 */
-	public static function get_instance() {
+	public static function get_instance(): Plugin {
 
 		if ( is_null( self::$instance ) ) {
 			self::$instance = new self();
