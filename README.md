@@ -132,7 +132,7 @@ The main block controls the overall feed settings:
 
 ## Changelog
 
-All notable changes to this project are documented in [CHANGELOG.md](https://github.com/outstand-labs/outstand-instagram-feed/blob/main/CHANGELOG.md).
+All notable changes to this project are documented in [CHANGELOG.md](https://github.com/pixelalbatross/outstand-instagram-feed/blob/main/CHANGELOG.md).
 
 ## License
 

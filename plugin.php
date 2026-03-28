@@ -5,13 +5,13 @@
  * Plugin URI:        https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-instagram-feed&utm_campaign=plugin-uri
  * Requires at least: 6.7
  * Requires PHP:      8.2
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Outstand
  * Author URI:        https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-instagram-feed&utm_campaign=author-uri
  * License:           GPL-3.0-or-later
  * License URI:       https://spdx.org/licenses/GPL-3.0-or-later.html
  * Update URI:        https://outstand.site/
- * GitHub Plugin URI: https://github.com/outstand-labs/outstand-instagram-feed
+ * GitHub Plugin URI: https://github.com/pixelalbatross/outstand-instagram-feed
  * Text Domain:       outstand-instagram-feed
  */
 
@@ -35,7 +35,7 @@ if ( file_exists( OUTSTAND_INSTAGRAM_FEED_PATH . '/vendor/autoload.php' ) ) {
 }
 
 PucFactory::buildUpdateChecker(
-	'https://github.com/outstand-labs/outstand-instagram-feed/',
+	'https://github.com/pixelalbatross/outstand-instagram-feed/',
 	__FILE__,
 	'outstand-instagram-feed'
 )->setBranch( 'main' );
