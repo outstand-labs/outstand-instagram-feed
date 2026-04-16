@@ -119,7 +119,7 @@ class Settings {
 	public function add_settings_page(): void {
 
 		$hook_suffix = add_options_page(
-			__( 'Instagram Feed Settings', 'outstand-instagram-feed' ),
+			__( 'Outstand Instagram Feed', 'outstand-instagram-feed' ),
 			__( 'Instagram Feed', 'outstand-instagram-feed' ),
 			'manage_options',
 			$this->get_page_slug(),
@@ -194,21 +194,13 @@ class Settings {
 	public function render_settings_page(): void {
 		?>
 		<div class="wrap">
-			<h1>
-				<?php esc_html_e( 'Outstand Instagram Feed', 'outstand-instagram-feed' ); ?>
-			</h1>
+			<h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
+
 			<form action="options.php" method="post">
 				<?php
 				settings_fields( $this->option_group );
 				do_settings_sections( $this->get_page_slug() );
-				?>
-				<?php
-				submit_button(
-					'',
-					'primary',
-					'submit',
-					false
-				);
+				submit_button();
 				?>
 			</form>
 		</div>
