@@ -37,8 +37,8 @@ To include this plugin as a dependency in your Composer-managed WordPress projec
 composer require outstand/instagram-feed
 ```
 
-2. Run `composer install` to install the plugin.
-3. Activate the plugin from your WordPress admin area or using WP-CLI.
+1. Run `composer install` to install the plugin.
+2. Activate the plugin from your WordPress admin area or using WP-CLI.
 
 ## Setup
 
@@ -49,48 +49,13 @@ composer require outstand/instagram-feed
 - Your Instagram account must be a **Business** or **Creator** account
 - To convert your account: [How to switch to a professional Instagram account](https://help.instagram.com/502981923235522)
 
-### Step 1: Create App
+### Step 1: Register a Facebook App
 
-> All Instagram API access goes through the Facebook Developers platform. You'll create a Facebook App that connects to your Instagram Business or Creator account.
+All Instagram API access goes through the Facebook Developers platform. You'll create a Facebook App, connect it to your Instagram Business or Creator account, and configure an OAuth redirect URL for this plugin.
 
-1. Go to [Facebook Developers Portal](https://developers.facebook.com/apps/) and click **Create App**
-2. Enter your app name (e.g., "My Website Social Feed" or "Company Social Media") and your contact email address
-   ![App details](assets/create-app-01.png)
-3. Click **Next**
-4. Under **Filter by**, choose **Others**, then select **Other** as the use case and click **Next**
-   ![App use case](assets/create-app-02.png)
-5. Select **Business** as app type and click **Next**
-   ![App type](assets/create-app-03.png)
-6. Click **Create app**
-   ![App review](assets/create-app-04.png)
+See [docs/application-setup.md](docs/application-setup.md) for a step-by-step, screenshot-by-screenshot walk-through. When you finish that doc you will have an **Instagram App ID**, an **Instagram App Secret**, and an accepted Instagram Tester invitation — return here and continue below.
 
-### Step 2: Configure App
-
-1. Go to **App settings** > **Basic**:
-    - Add your **Privacy Policy URL** and **Terms of Service URL**
-    - Add your website domain to **App domains**: `yourdomain.com`
-    - Click **Save changes**
-   ![App settings](assets/configure-app-01.png)
-2. In the app dashboard, under **Products**, click **Set up** in **Instagram**
-   ![App dashboard](assets/configure-app-02.png)
-3. Copy your **Instagram App ID** and **Instagram App Secret** (Do NOT use the credentials from **App settings** > **Basic**)
-   ![App ID and secret](assets/configure-app-03.png)
-4. Click **Set up** under **Set up Instagram business login**
-5. Add the following **Redirect URL** (replace yourdomain.com with your site's domain): `https://yourdomain.com/outstand-instagram-feed/oauth-callback`
-   ![Redirect URL](assets/configure-app-04.png)
-6. Click **Save**
-7. Go to **App Roles** > **Roles**
-8. Click **Add People**
-   ![Add people](assets/configure-app-05.png)
-9. Select **Instagram Tester** role
-10. Search for the account connected to your Instagram and click **Add**
-   ![Select Instagram tester](assets/configure-app-06.png)
-11. The person must accept the invitation:
-    - Go to Instagram
-    - Go to **Settings** > **Apps and websites** > **Tester Invites**
-    - Accept the invitation
-
-### Step 3: Configure Plugin
+### Step 2: Configure Plugin
 
 1. Go to **Settings > Outstand Instagram Feed** in your WordPress admin
 2. Enter your **Instagram App ID** and **Instagram App Secret** and click **Save**
@@ -100,7 +65,7 @@ composer require outstand/instagram-feed
 6. Click **Allow**
 7. You'll be redirected back to WordPress. Your connection will appear as **Connected** in the plugin settings.
 
-### Step 4: Add the Block
+### Step 3: Add the Block
 
 1. In the block editor, search for "Instagram Feed"
 2. Add the block to your page or post
