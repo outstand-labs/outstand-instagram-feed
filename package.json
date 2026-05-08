@@ -1,10 +1,10 @@
 {
   "name": "outstand-instagram-feed",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Display an Instagram feed.",
   "contributors": [
     {
-      "name": "Sérgio Santos",
+      "name": "S\u00e9rgio Santos",
       "url": "https://s3rgiosan.dev",
       "role": "developer"
     }
