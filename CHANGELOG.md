@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased]
 
+- Added automated GitHub Release packaging via reusable release workflow; installation now points to the latest release ZIP.
+
 ## [1.1.0] - 2026-03-28
 
 - Updated settings page title and menu title to "Instagram Feed".
