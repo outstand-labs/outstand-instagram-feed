@@ -29,10 +29,11 @@ define( 'OUTSTAND_INSTAGRAM_FEED_URL', plugin_dir_url( __FILE__ ) );
 define( 'OUTSTAND_INSTAGRAM_FEED_PATH', plugin_dir_path( __FILE__ ) );
 define( 'OUTSTAND_INSTAGRAM_FEED_INC', OUTSTAND_INSTAGRAM_FEED_PATH . 'includes/' );
 
-// Require Composer autoloader if it exists.
-if ( file_exists( OUTSTAND_INSTAGRAM_FEED_PATH . '/vendor/autoload.php' ) ) {
-	require_once OUTSTAND_INSTAGRAM_FEED_PATH . 'vendor/autoload.php';
+if ( ! file_exists( OUTSTAND_INSTAGRAM_FEED_PATH . 'vendor/autoload.php' ) ) {
+	return;
 }
+
+require_once OUTSTAND_INSTAGRAM_FEED_PATH . 'vendor/autoload.php';
 
 PucFactory::buildUpdateChecker(
 	'https://github.com/pixelalbatross/outstand-instagram-feed/',
